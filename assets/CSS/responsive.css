@@ -1,0 +1,79 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+    .area{
+        width: 970px;
+    }
+    .welcome-menu {
+        flex-basic: 15%;
+    }
+    .welcome-content {
+        flex-basis: 85%;
+    }
+}
+
+/* tablet Layout: 768px. */
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    .area{
+        width: 750px;
+    }
+    .welcome-menu {
+        flex-basic: 20%;
+    }
+    .welcome-content {
+        flex-basis: 80%;
+    }
+}
+
+/* Mobile Layout: 320px */
+@media only screen and (max-width:767px){
+    .area{
+        width: 320px;
+    }
+    .logo {
+        flex-basis: 100%;
+    }
+    .menu {
+        flex-basis: 100%;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    ul li a {
+        padding: 4px 0px;
+    }
+    .banner img {
+        height: 40vh;
+    }
+    .welcome-menu {
+        flex-basic: 100%;
+        margin-bottom: 10px;
+    }
+    .welcome-content {
+        flex-basis: 100%;
+    }
+    .single-service {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .misson {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+    .vision {
+        flex-basis: 100%;
+    }
+    .about-left {
+        flex-basis: 100%;
+        margin-bottom: 15px;
+    }
+    .single-footer:nth-child(1), .single-footer:nth-child(2), .single-footer:nth-child(3) {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+}
+
+/*Wide Mobile Layout*/
+@media only screen and (min-width:480px) and (max-width:767px){
+    .area{
+        width: 450px;
+    }
+}
